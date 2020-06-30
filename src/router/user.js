@@ -77,11 +77,11 @@ router.patch('/users/:id', async (req, res) => {
         //const user = await User.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true});
 
         if(!user) {
-            return res.sendStatus(400).send()
+            return res.status(400).send()
         }
         res.send(user)
     } catch (e) {
-        res.sendStatus(400).send(e);
+        res.status(400).send(e);
     }
 });
 
