@@ -16,7 +16,8 @@ app.listen(port, () => {
     console.log(`Server is up on port ${port}`);
 });
 
-// const bcrypt = require('bcryptjs')
+
+const jwt = require('jsonwebtoken')
 
 // const myFunction = async () => {
 //     const password = 'red12345!';
@@ -29,4 +30,8 @@ app.listen(port, () => {
 //     console.log(isMatch)
 // }
 
-// myFunction()
+const myFunction = async () => {
+    
+}
+
+myFunction()
