@@ -17,7 +17,46 @@ app.listen(port, () => {
 });
 
 
-const jwt = require('jsonwebtoken')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const jwt = require('jsonwebtoken')
 
 // const myFunction = async () => {
 //     const password = 'red12345!';
@@ -30,8 +69,8 @@ const jwt = require('jsonwebtoken')
 //     console.log(isMatch)
 // }
 
-const myFunction = async () => {
+// const myFunction = async () => {
     
-}
+// }
 
-myFunction()
+// myFunction()
