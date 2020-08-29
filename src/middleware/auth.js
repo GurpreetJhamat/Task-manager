@@ -20,5 +20,7 @@ const auth = async (req, res, next) => {
     }
 }
 
-
+function name(){
+    
+}
 module.exports = auth
